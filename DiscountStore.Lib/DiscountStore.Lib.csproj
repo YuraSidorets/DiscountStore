@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DiscountStore.Domain\DiscountStore.Domain.csproj" />
+    <ProjectReference Include="..\DiscountStore.Persistence\DiscountStore.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
